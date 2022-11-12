@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.movie_container {
+  background: url(../images/image\ 12.png);
+
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  width: 100%;
+  /* height: 100vh; */
+}
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #c00511;
+  text-align: center;
+padding-top: 150px;
+}
+span{
+    color: white;
+}
+.button1{
+    padding: 9px 106px;
+    background: rgba(217, 217, 217, 0.16);
+border: 1px solid #FFFFFF;
+border-radius: 90px;
+color: #C00511;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+}
+.button2{
+padding: 9px 106px;
+color:  #FFFFFF;
+border-radius: 90px;
+background-color: #C00511;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+border: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+justify-content: center;
+/* background-color: #fff; */
+height: 100vh;
+}
+.buttons button{
+    cursor: pointer;
+}

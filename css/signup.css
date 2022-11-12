@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+.login_container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+
+label {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+input {
+  width: 330px;
+  border: none;
+  background: none;
+  padding: 10px 0;
+  outline: none;
+  color: #ffffff;
+  border-bottom: 2px solid #c4c4c49c;
+}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #8b8b8b;
+}
+.x {
+  margin-top: 23px;
+}
+button {
+  padding: 9px 97px;
+
+  background: #c00511;
+  border: 2px solid #c00511;
+  border-radius: 90px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 130px;
+  margin-left: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgba(217, 217, 217, 0.16);
+    color: #c00511;
+    transition: 0.4s;
+}
